@@ -1,0 +1,121 @@
+.container {
+    width: 30%;
+    min-height: fit-content;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    background-color: rgb(32, 133, 91);
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.input {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 15px;
+    transition: border-color 0.85s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 1em;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 280PX;
+    
+}
+
+button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0.6em 15px; 
+    font-size: 1em;
+    font-weight: 500;
+    height: 43.5px; 
+    padding-top: 5px;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-bottom: 50px;
+    
+    
+}
+h2{
+    text-align: center;
+    color:white;
+    margin-bottom: 60px;
+    
+}
+
+input:hover{
+    border-color: #972323;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+input:focus,
+input:focus-visible {
+    outline: 150px;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+li{
+    background-color: rgb(4, 4, 4);
+    list-style-type:none;
+    margin-bottom: 15px;
+    margin-right: 45px;
+    border-radius: 5px;
+    color: #fcfafa;
+    padding-top: 5PX;
+    height: 38px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ .list-items{
+    display: flex;
+    
+
+   
+} 
+
+.list-items .list-item-list{
+    flex: 1;
+} 
+    .list-item-icons{
+    padding-left: 10px;
+    font-size: 10 px;
+}   
+
+
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.6;
+
+}
+
+#complete{
+    color: rgb(101, 199, 86);
+}
+
+#edit{
+    color: rgb(88, 21, 224);
+}
+
+#delete{
+    color: rgb(183, 25, 43);
+}
